@@ -15,4 +15,10 @@ jobs:
         run: echo "Hello World!"
       - name: Pring goodBye
         run: echo "Done -bye!"
+      - name: execute multi command
+        # run内で複数のコマンドを実行できる。( | を使う。)
+        run: |
+          echo "this is multi command1"
+          echo "this is multi command2"
+
   
