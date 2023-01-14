@@ -1,5 +1,5 @@
 # ワークフロー名
-name:First Workflow
+name: First Workflow
 
 # イベントトリガー
 on: workflow_dispatch
