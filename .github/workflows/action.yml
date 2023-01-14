@@ -1,0 +1,18 @@
+# ワークフロー名
+name:First Workflow
+
+# イベントトリガー
+on: workflow_dispatch
+
+# jobs
+## (jobsは複数書ける。デフォルトでは並列実行)
+jobs:
+  first-jobs:
+    # 実行する環境
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pring Greeting
+        run: echo "Hello World!"
+      - name: Pring goodBye
+        run: echo "Done -bye!"
+  
