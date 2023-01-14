@@ -2,7 +2,9 @@
 name: First Workflow
 
 # イベントトリガー
-on: workflow_dispatch
+# workflow_dispatch: 手動実行(githubコンソール上で実行ボタンを押す。)
+on: [push,workflow_dispatch]
+
 
 # jobs
 ## (jobsは複数書ける。デフォルトでは並列実行)
